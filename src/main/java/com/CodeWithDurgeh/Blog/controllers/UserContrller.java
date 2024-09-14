@@ -70,4 +70,8 @@ public class UserContrller {
 			
 			return ResponseEntity.ok(this.userServices.getUserById(userId));
 			}
+       @PostMapping("/")
+       public ResponseEntity<List> getAllData(){
+       }
+
 }
